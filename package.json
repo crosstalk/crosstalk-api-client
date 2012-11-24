@@ -1,11 +1,23 @@
 {
-  "name" : "crosstalk-api-client",
-  "description" : "Crosstalk API Client",
-  "version" : "0.0.0",
-  "author" : "Tristan Slominski <tristan.slominski@gmail.com>",
-  "main" : "./lib/client.js",
-  "dependencies" : {
-    "request" : "2.9.153"
+  "name": "crosstalk-api-client",  
+  "version": "0.0.0",
+  "description": "Crosstalk API Client",
+  "main": "./lib/client.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crosstalk/crosstalk-api-client.git"
   },
-  "private" : true
+  "keywords": [
+    "crosstalk",
+    "api",
+    "client"
+  ],
+  "dependencies": {
+    "request": "2.9.153"
+  },
+  "author": "Crosstalk Systems Inc. <developers@crxtalk.com>",
+  "maintainers": [
+    "Tristan Slominski <tristan.slominski@gmail.com>"
+  ],
+  "license": "MIT"
 }
