@@ -1,6 +1,6 @@
 {
   "name": "crosstalk-api-client",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Crosstalk API Client",
   "main": "./lib/client.js",
   "repository": {
